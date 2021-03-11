@@ -1,0 +1,7 @@
+a:hover {
+  opacity: 0.8;
+}
+
+.plant-items {
+  display: flex;
+}

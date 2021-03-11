@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.figure-img {
+  margin-right: 1rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+a {
+  font-size: 1.25rem;
+}
+
+nav.navbar {
+  background-color: #8da58d;
+  padding: 0;
+  width: 99%;
+  border-radius: 0px 50px 50px 0px;
+}
+nav.whiteSpace {
+  color: white;
+}
