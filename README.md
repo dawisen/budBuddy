@@ -3,7 +3,9 @@ Bud Buddy is like a friend who helps you take care of your plants, if your frien
 
 Demo Page: **https://dawisen.github.io/budbuddy/**
 
-<img src="https://dawisen.github.io/budbuddy/static/media/home.f5c4643c.svg" alt="budbuddy logo" height=30% width=70% >
+<p align="center">
+<img src="https://dawisen.github.io/budbuddy/static/media/home.f5c4643c.svg" alt="budbuddy logo" height=30% width=50% align="center" >
+ </p>
 
 ## How It's Made:
 
