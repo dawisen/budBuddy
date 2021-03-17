@@ -1,5 +1,5 @@
 # Bud Buddy
-Bud Buddy is like a friend who helps you take care of your plants, if your friend was an expert in plant facts and reminding you when to water your leaf babies. You can search plants by name and get info about what soil they need, how often to water, how much sunlight they need, when to fertilize, etc. and then add 
+Bud Buddy is like a friend who helps you take care of your plants, if your friend was an expert in plant facts and reminding you when to water your leaf babies. You can search plants by name and get info about what soil they need, how often to water, how much sunlight they need, when to fertilize, etc.
 
 Demo Page: **https://dawisen.github.io/budbuddy/**
 
