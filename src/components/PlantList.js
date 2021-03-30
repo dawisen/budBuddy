@@ -1,10 +1,10 @@
 import React from "react";
 import "./PlantList.css";
 
-export const PlantList = ({ plantData, page, setPlantId, setPage }) => {
+export const PlantList = ({ plantData, page, setPlantId}) => {
   const onClickPlant = (id) => {
     setPlantId(id);
-    setPage("Plant");
+    // setPage("Plant");
   };
 
   const sizeOfImgs = 200;
@@ -29,7 +29,7 @@ export const PlantList = ({ plantData, page, setPlantId, setPage }) => {
                         height={sizeOfImgs}
                       ></img>
                     </a>
-                    <h3 class="figure-caption mx-auto">{name}</h3>
+                    <h3 className="figure-caption mx-auto">{name}</h3>
                   </div>
                 );
               })
@@ -48,11 +48,11 @@ export const PlantList = ({ plantData, page, setPlantId, setPage }) => {
                     <img
                       src={picture}
                       width={sizeOfImgs}
-                      class="figure-img img-fluid rounded me-1"
+                      className="figure-img img-fluid rounded me-1"
                       height={sizeOfImgs}
                     ></img>
                   </a>
-                  <h3 class="figure-caption">{name}</h3>
+                  <h3 className="figure-caption">{name}</h3>
                 </div>
               );
             })
