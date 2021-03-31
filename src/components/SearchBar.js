@@ -3,8 +3,8 @@ import "./search.css";
 const Searchbar = ({ handleSearch }) => {
   
   return (
-    <div class="searchDiv">
-      <form class="d-flex">
+    <div className="searchDiv">
+      <form className="d-flex">
         <input
           type="search"
           placeholder="Search"
