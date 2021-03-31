@@ -1,29 +1,25 @@
+import { Link } from "react-router-dom";
 import Logo from "../images/logo.svg"
 import "../pages/Main.css"
 
-const NavBar = ({setPage}) => {
-
-    const onClick = (page) => {
-        setPage(page);
-    }
-
+const NavBar = () => {
     return (
       <div>
-        <nav class="whiteSpace">whitespace</nav>
-        <nav class="navbar navbar-expand-lg">
+        <nav className="whiteSpace">whitespace</nav>
+        <nav className="navbar navbar-expand-lg">
           <h1>
             <img className="disp" src={Logo} width="100" height="100" alt="Home Page Image" />
           </h1>
-          <h2 class="navbar-brand text-white">Bud Buddy</h2>
-          <a class="nav-link text-white" href="#" onClick={() => onClick("Home")}>
+          <h2 className="navbar-brand text-white">Bud Buddy</h2>
+          <Link className="nav-link text-white" to="/">
             Home
-          </a>
-          <a class="nav-link text-white" href="#" onClick={() => onClick("My Plants")}>
+          </Link>
+          <Link className="nav-link text-white" to="/myplants">
             My Plants
-          </a>
-          <a class="nav-link text-white" href="#" onClick={() => onClick("Explore")}>
+          </Link>
+          <Link className="nav-link text-white" to="/explore">
             Explore
-          </a>
+          </Link>
         </nav>
       </div>
     );    
