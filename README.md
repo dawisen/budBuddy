@@ -9,7 +9,7 @@ Demo Page: **https://dawisen.github.io/budbuddy/**
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, React, Bootstrap
+**Tech used:** HTML, CSS, React, Bootstrap, Puppeteer
 
 This project started as a [Pearl Hacks](https://devpost.com/software/bud-buddy) hackathon project and was created in under 24 hours. We designed a website with search filtering, data mapping, and pulled data from a JSON file as a stand-in for an API call/connected database. I intend to keep building and updating it until it is a full-stack application. 
 
